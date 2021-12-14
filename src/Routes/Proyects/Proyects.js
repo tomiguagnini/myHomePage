@@ -19,7 +19,9 @@ const Proyects = () => {
                 <Card
                     img={memory}
                     title='Memory'
-                    description='asdasd' 
+                    description='Github'
+                    link="https://sad-yalow-0a4567.netlify.app/"
+                    link2="https://github.com/tomiguagnini/memory-game"
                 >
 
                 </Card>
