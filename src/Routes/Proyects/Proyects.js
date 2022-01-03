@@ -13,13 +13,14 @@ const Proyects = () => {
                 <Card 
                     img={ahorcado} 
                     title='Hanged Man'
-                    description='asdasd'
+                    description='Github link'
+                    link2="https://github.com/tomiguagnini/hangedman_two_players"
                     >    
                 </Card>
                 <Card
                     img={memory}
                     title='Memory'
-                    description='Github'
+                    description='Github link'
                     link="https://sad-yalow-0a4567.netlify.app/"
                     link2="https://github.com/tomiguagnini/memory-game"
                 >
