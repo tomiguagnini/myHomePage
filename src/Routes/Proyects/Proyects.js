@@ -13,7 +13,7 @@ const Proyects = () => {
                 <Card 
                     img={ahorcado} 
                     title='Hanged Man'
-                    description='asdasd'
+                    description='Github link'
                     link="https://hangedman-2-player.herokuapp.com/ahorcado.html"
                     link2="https://github.com/tomiguagnini/hangedman_two_players"
                     >    
