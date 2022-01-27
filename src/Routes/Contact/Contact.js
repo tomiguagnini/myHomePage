@@ -5,11 +5,13 @@ import Button from '../../Components/Button/Button'
 
 const Contact = () => {
     return (
-        <div className="container">
+        <div>
             <NavBar title='Contact'></NavBar>
-            <Button src="https://github.com/tomiguagnini" desc="Github"></Button>
-            <Button src="https://tomyguagnini@gmail.com" desc="Mail"></Button>
-            <Button src="https://www.linkedin.com/in/tomasguagnini/" desc="LinkedIn"></Button>
+            <div className="container" >
+                <Button src="https://github.com/tomiguagnini" desc="Github"></Button>
+                <Button src="https://tomyguagnini@gmail.com" desc="Mail"></Button>
+                <Button src="https://www.linkedin.com/in/tomasguagnini/" desc="LinkedIn"></Button>
+            </div>
 
         </div>
     );
