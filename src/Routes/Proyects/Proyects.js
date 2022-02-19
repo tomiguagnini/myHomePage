@@ -4,6 +4,7 @@ import Card from '../../Components/Card/Card';
 import ahorcado from '../../Assets/img/ahorcado.png'
 import memory from '../../Assets/img/memory.png'
 import ppt from '../../Assets/img/ppt.png'
+import calculator from '../../Assets/img/calculator.png'
 
 const Proyects = () => {
     return (
@@ -28,8 +29,12 @@ const Proyects = () => {
 
                 </Card>
                 <Card
-                    img={ppt}
-                    title='Piedra Papel Tijera'
+                    img={calculator}
+                    title='Simple calculator'
+                    description='Github link'
+                    link="https://github.com/tomiguagnini/calculator_binary"
+                    link2="https://calculator-binary.herokuapp.com/"
+
                 >
 
                 </Card>
