@@ -32,8 +32,8 @@ const Proyects = () => {
                     img={calculator}
                     title='Simple calculator'
                     description='Github link'
-                    link="https://github.com/tomiguagnini/calculator_binary"
-                    link2="https://calculator-binary.herokuapp.com/"
+                    link="https://calculator-binary.herokuapp.com/"
+                    link2="https://github.com/tomiguagnini/calculator_binary"
 
                 >
 
