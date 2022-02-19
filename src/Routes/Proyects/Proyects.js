@@ -33,7 +33,7 @@ const Proyects = () => {
                     title='Simple calculator'
                     description='Github link'
                     link="https://calculator-binary.herokuapp.com/"
-                    link2="https://github.com/tomiguagnini/calculator_binary"
+                    link2="https://github.com/tomiguagnini/calculator_binary" 
 
                 >
 
