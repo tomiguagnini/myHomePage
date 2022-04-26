@@ -8,11 +8,8 @@ const Cv = () => {
             <NavBar title="Resume"></NavBar>
             <div className="container">
                 <div className="mx-auto text-center">
-                    <a href='/tomascv.pdf'>
-                    <img  className="img-fluid" src={cv_img} alt="imagen" width="700px">
+                    <img className="img-fluid" src={cv_img} alt="imagen" width="700px">
                     </img>
-
-                    </a>
                 </div>
             </div>
         </div>
