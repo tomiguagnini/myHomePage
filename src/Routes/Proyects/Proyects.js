@@ -10,7 +10,7 @@ const Proyects = () => {
     return (
         <div>
             <NavBar title="Proyects"></NavBar>
-            <div className="container">
+            <div className="container vh-100">
                 <Card 
                     img={ahorcado} 
                     title='Hanged Man'
