@@ -12,8 +12,9 @@ const Card = ({ img, title, description, link, link2 }) => {
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="card-title">{title}</h5>
-                                <a href={link2} >
-                                    {description}  
+                                <p class="card-text">{description}</p>
+                                <a class="card-footer" href={link2} >
+                                    Code  
                                 </a>                                
                             </div>
                         </div>

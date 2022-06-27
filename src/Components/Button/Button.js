@@ -2,12 +2,17 @@ import React from 'react';
 
 
 
-const Button = ({src,desc}) => {
+const Button = ({src,desc,icon}) => {
     return (
-        <div className='d-flex '>
-            <a href={src} class="btn btn-primary btn-lg bg-dark border-white w-25  mt-5 mx-auto fs-6" >{desc}</a>     
-            
-        </div>
+        <>  
+            <a  href={src} 
+                class="btn btn-primary  bg-dark border-white m-1 d-flex justify-content-center">
+                
+                <img className='icon align-self-center' src={icon}></img>
+                {desc}
+            </a>     
+        </>
+
     );
 };
 

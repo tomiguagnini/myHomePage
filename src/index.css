@@ -16,7 +16,13 @@ body {
 .card a{
   text-decoration: none;
 }
+.icon {
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
+  margin-right:10px;
 
+}
 
 .max-w-100{
   max-width: 100px;
