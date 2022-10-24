@@ -2,7 +2,7 @@ import React from 'react';
 import cv_img from '../../Assets/img/tomascv.jpg'
 import NavBar from '../../Components/Navbar/NavBar';
 
-const Cv = () => {
+const Resume = () => {
     return (
         <div >
             <NavBar title="Resume"></NavBar>
@@ -18,4 +18,4 @@ const Cv = () => {
 
 
 
-export default Cv;
+export default Resume;

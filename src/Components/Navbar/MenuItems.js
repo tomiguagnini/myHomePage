@@ -5,8 +5,8 @@ export const MenuItems = [
         cName:'nav-link'
     },
     {
-        title:'Cv',
-        url:'/cv',
+        title:'Resume',
+        url:'/resume',
         cName:'nav-link'
     },
     {

@@ -7,7 +7,7 @@ const Card = ({ img, title, description, link, link2 }) => {
                 <a href={link}>
                     <div class="row g-0">
                         <div class="col-md-4 d-flex ">
-                            <img src={img} class="img-fluid rounded-start  " alt="imagen"></img>
+                            <img src={img} class="img-fluid rounded-start" alt=""></img>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
