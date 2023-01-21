@@ -13,6 +13,7 @@ const Card = ({ img, title, description, link, link2 }) => {
                             <div class="card-body">
                                 <h5 class="card-title">{title}</h5>
                                 <p class="card-text">{description}</p>
+                                <a class="card-footer" href={link} style={{marginRight:'6px'}}>Visit</a>
                                 {link2?<a class="card-footer" href={link2} >
                                     Code  
                                 </a>:''}                                
