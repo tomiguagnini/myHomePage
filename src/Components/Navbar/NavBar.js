@@ -9,11 +9,11 @@ function NavBar({title}){
         <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid ">
                 <a class="navbar-brand fs-2 text-white" href="/">{title}</a>
-                    <ul className="nav justify-content-end">
+                    <ul className="nav justify-content-end ">
                         {MenuItems.map((item,index)=>{
                             return(
                             <li className="nav-item" key={index}>
-                                <Link to={item.url} className="nav-link text-white" >
+                                <Link to={item.url} className="nav-link text-white p-2" >
                                     {item.title}
                                 </Link>
                             </li>

@@ -23,7 +23,10 @@ body {
   margin-right:10px;
 
 }
-
+.nav-link{
+  display: flex;
+  flex-wrap: nowrap;
+}
 .max-w-100{
   max-width: 100px;
 }
