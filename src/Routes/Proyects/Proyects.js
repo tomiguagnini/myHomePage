@@ -38,7 +38,7 @@ const Proyects = () => {
                     img={ahorcado}
                     title="Hanged Man Multiplayer"
                     description="College backend proyect, using node, express"
-                    link="https://hangedman-2-player.herokuapp.com/ahorcado.html"
+                    link="https://hanged-man.onrender.com/ahorcado.html"
                     link2="https://github.com/tomiguagnini/hangedman_two_players"
                 />
                 <Card
