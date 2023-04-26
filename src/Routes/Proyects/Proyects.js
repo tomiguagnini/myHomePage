@@ -4,26 +4,46 @@ import Card from "../../Components/Card/Card";
 import ahorcado from "../../Assets/img/ahorcado.png";
 import memory from "../../Assets/img/memory.png";
 import veterinary from "../../Assets/img/veterinaria.png";
-import calculator from "../../Assets/img/calculator.png";
-import booking from "../../Assets/img/booking desktop.png";
+import countries from "../../Assets/img/countries.jpg";
+import booking from "../../Assets/img/booking.png";
 import movies from "../../Assets/img/movies.png";
+import gym from "../../Assets/img/gym.png";
 
 const Proyects = () => {
     return (
         <div>
             <NavBar title="Proyects"></NavBar>
-            <div className="container vh-100">
+            <div className="container">
+                <Card
+                    img={gym}
+                    title="Xsports"
+                    description="E-commerce app for a fictitious gym, which has the possibility of being shown as an innovative business,
+                    and at the same time the possibility of selling products. Includes: administration panel, authentication, combined filters,
+                    product searches, sorting, user banning, email sending, payment gateway (MercadoPago), responsive design, etc."
+                    link="https://reservas-front.vercel.app/"
+                    link2="https://github.com/LMarinBorges/henry-pf"
+                />
+                <Card
+                    img={countries}
+                    title="Countries"
+                    description="An application that was requested for the individual project of the Soy Henry bootcamp. 
+                    It allows the user to view information about countries, including searches, combined filters, sorting, 
+                    and also the creation of activities for each country. Technologies: React, Redux, Node, Express and Postgres SQL"
+                    link="https://countries-eight-ruby.vercel.app/"
+                    link2="https://github.com/tomiguagnini/countries"
+                />
                 <Card
                     img={booking}
-                    title="Booking system (Demo)"
-                    description="Freelance proyect fullstack, using react, node, and Mongodb"
+                    title="Booking system"
+                    description="Full-stack application designed for the reservation of facilities in a park, where you can reserve picnic areas, barbecue grills, 
+                    and cabins. Technologies: React, Node, and Mongodb"
                     link="https://reservas-front.vercel.app/"
                     link2=""
                 />
                 <Card
                     img={veterinary}
                     title="Veterinary"
-                    description="Personal proyect fullstack, using react, talwind, node, and Mongodb"
+                    description="Personal fullstack proyect (CRUD), using react, talwind, node, and Mongodb"
                     link="https://veterinaria-tom.netlify.app/"
                     link2="https://github.com/tomiguagnini/veterinaria"
                 />
@@ -48,13 +68,6 @@ const Proyects = () => {
                     learning css and data fetching"
                     link="https://movies-tomigua.netlify.app/"
                     link2="https://github.com/tomiguagnini/netflix"
-                />
-                <Card
-                    img={calculator}
-                    title="Simple calculator"
-                    description="Little app from college"
-                    link="https://calculator-binary.herokuapp.com/"
-                    link2="https://github.com/tomiguagnini/calculator_binary"
                 />
             </div>
         </div>
