@@ -20,7 +20,7 @@ const Proyects = () => {
                     description="E-commerce app for a fictitious gym, which has the possibility of being shown as an innovative business,
                     and at the same time the possibility of selling products. Includes: administration panel, authentication, combined filters,
                     product searches, sorting, user banning, email sending, payment gateway (MercadoPago), responsive design, etc."
-                    link="https://reservas-front.vercel.app/"
+                    link="https://grupo04-henry-pf.fly.dev/home"
                     link2="https://github.com/LMarinBorges/henry-pf"
                 />
                 <Card
@@ -31,14 +31,6 @@ const Proyects = () => {
                     and also the creation of activities for each country. Technologies: React, Redux, Node, Express and Postgres SQL"
                     link="https://countries-eight-ruby.vercel.app/"
                     link2="https://github.com/tomiguagnini/countries"
-                />
-                <Card
-                    img={booking}
-                    title="Booking system"
-                    description="Full-stack application designed for the reservation of facilities in a park, where you can reserve picnic areas, barbecue grills, 
-                    and cabins. Technologies: React, Node, and Mongodb"
-                    link="https://reservas-front.vercel.app/"
-                    link2=""
                 />
                 <Card
                     img={veterinary}
