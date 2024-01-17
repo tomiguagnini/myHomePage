@@ -3,9 +3,8 @@ import NavBar from "../../Components/Navbar/NavBar";
 import Card from "../../Components/Card/Card";
 import ahorcado from "../../Assets/img/ahorcado.png";
 import memory from "../../Assets/img/memory.png";
-import veterinary from "../../Assets/img/veterinaria.png";
 import countries from "../../Assets/img/countries.jpg";
-import booking from "../../Assets/img/booking.png";
+import chbeats from "../../Assets/img/chbeats07.jpg";
 import movies from "../../Assets/img/movies.png";
 import gym from "../../Assets/img/gym.png";
 
@@ -14,6 +13,17 @@ const Proyects = () => {
         <div>
             <NavBar title="Proyects"></NavBar>
             <div className="container">
+                <Card
+                    img={chbeats}
+                    title="Xsports"
+                    description="Design and development of an e-commerce platform specialized for Ch Records, 
+                    allowing them to showcase and sell their exclusive beats in a simple and attractive manner. 
+                    I utilized cutting-edge technologies such as TypeScript, React, Tailwind CSS, Node.js, PostgreSQL, and Firebase, 
+                    prioritizing simplicity and ease of purchase. The result was a platform with a modern, appealing design and high performance, 
+                    optimized to provide customers with an exceptional shopping experience."
+                    link="https://chmusic.vercel.app/"
+                    link2="https://github.com/tomiguagnini/chmusic"
+                />
                 <Card
                     img={gym}
                     title="Xsports"
@@ -32,13 +42,13 @@ const Proyects = () => {
                     link="https://countries-eight-ruby.vercel.app/"
                     link2="https://github.com/tomiguagnini/countries"
                 />
-                <Card
+                {/* <Card
                     img={veterinary}
                     title="Veterinary"
                     description="Personal fullstack proyect (CRUD), using react, talwind, node, and Mongodb"
                     link="https://veterinaria-tom.netlify.app/"
                     link2="https://github.com/tomiguagnini/veterinaria"
-                />
+                /> */}
                 <Card
                     img={memory}
                     title="Memory"
